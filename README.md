@@ -2,7 +2,7 @@
 
 ### CustomToken.sol
 
-- This contract import the ERC20 contract from openzepplin
+- This contract import the ERC20 contract from openzeppelin
 - It allow owner to mint any amount of token to any specified address
 - No other user can interact or have access to the mint function
 - Other token holder/user can burn any amount of token to themselves
