@@ -1,13 +1,27 @@
 # Custom ERC20 token
 
-### CustomToken.sol
+Simple overview of use/purpose.
 
-- This contract import the ERC20 contract from openzeppelin
-- It allow owner to mint any amount of token to any specified address
-- No other user can interact or have access to the mint function
-- Other token holder/user can burn any amount of token to themselves
-- Other user can also transfer any specified amount of token to any specified address
+This ERC20 custom token is to enable contract owner to mint any amount of token to itself, and any other token holder or user to burn specify amount of token.
 
-### Test
+## Description
 
-- Deploy the contract on REMIX IDE to see how each of the function is used
+Custom ERC20 token
+
+## Getting Started
+
+User is require to have knowledge of deploying contract on Remix and knowing how to burn token any specify amount of token.
+
+### Installing
+
+- This code can be downloaded by cloning the [https url] gotten by the clicking the button with the text "Code" from this github page or by downloading the zip file on your local computer
+
+### Executing program
+
+- How to run the program
+
+* Copy CustomToken.sol contract on Remix IDE and deploy by setting the environment to injected provider-MetaMask
+
+## Authors
+
+Sikiru Yaya (skycode)
